@@ -1,5 +1,7 @@
 # A neighborhood explorer for Section 8 voucher holders
 
+Dashboard: https://housinginitiative.shinyapps.io/pha-dash/
+
 This repository contains a Shiny web app designed to assist Section 8 Voucher holders in exploring Philly neighborhoods. The app aggregates data on demographics, amenities, crime rates, and health outcomes alongside the most recent Section 8 rent limit boundaries and contribution expectations.
 
 By integrating these datasets, the app enables users to effectively narrow their housing search by filtering neighborhoods that match:  
