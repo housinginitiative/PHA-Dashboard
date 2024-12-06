@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+html, body {
+  font-family: 'Poppins', sans-serif;
+  height: 100%; 
+  width: 100%;
+  padding: 0;  
+  margin: 0;
+  display: flex; 
+  align-items: flex-start; 
+  justify-content: center; 
+  text-align: center; 
+}
+
+div.container-fluid {
+  margin: 0;
+  padding: 0;
+}
+
+div, table, form, input, button, select {
+  margin: 0 auto; 
+}
+
+#welcome_panel {
+  margin-top: 10rem;
+  padding: 0;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; 
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+p, h4, .btn, input, button, select { 
+  color: darkslategray;
+  font-weight: 400; 
+  max-width: 90ch; 
+  line-height: 1.6; 
+  margin: 20px auto; 
+  padding: 0 1rem; 
+  overflow-wrap: break-word; 
+}
+
+h1, h2, h3 {
+  color: darkcyan;
+  font-weight: 700;
+}
+
+
+p {
+  line-height: 1.5;   
+  color: #839192;
+}
+
+#app-header {
+  margin: 0;
+  width: 100%; 
+  text-align: left;
+  align-content: left;
+  justify-content: flex-start;
+  background-color: darkcyan; 
+  padding: 15px 20px;
+  position: sticky; 
+  top: 0; 
+  z-index: 1000; 
+}
+
+#app-header h1 {
+  color: white;
+  font-size: 2.5rem;
+  font-weight: 250;
+}
+
+.btn-custom {
+  background-color: darkcyan;
+  color: #FFFFFF;
+  border: none;
+  font-size: 16px;
+  padding: 12px 24px;
+  margin: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn-custom:hover {
+  background-color: #006666;
+  color: white;
+}
+
+
+.main-content {
+  flex: 0;
+  padding: 20px;
+  width: 100vw;
+  overflow-y: auto; 
+}
+
+#main_content {
+  margin-top: 30px;
+}
+
+.progress {
+  height: 20px;
+  margin-bottom: 20px;
+  background-color: #e9ecef;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.progress-bar {
+  background-color: darkcyan;
+}
+
+p#question-info {
+  max-width: 60ch;
+}
+
+.selection-buttons {
+  margin-top: 20px;
+}
+
+.preferred-list, .recommended-list {
+  margin-top: 20px;
+}
+
+.preferred-item, .recommended-item {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #f8f9fa;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table th,
+table td {
+  padding: 4px;
+  text-align: left;
+}
+
+table th {
+  background-color: darkcyan;
+  color: white;
+}
+
+table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+input[type="number"] {
+  max-width: 80%;
+}
+
+.checkbox label {
+  font-weight: bold;
+  font-size: 20px;
+}
